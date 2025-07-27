@@ -1,0 +1,50 @@
+/* Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .forgot-password-link {
+    color: #0077cc;
+    font-size: 0.9em;
+    text-align: right;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: -10px;
+  }
+  
+  .login-background {
+    background: linear-gradient(135deg, #6db3f2 0%, #1e69de 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
