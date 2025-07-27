@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Heading from '../components/login/Heading';
 import ForgotPassword from '../components/login/Forgotpassword';
 import EmailInput from '../components/login/EmailInput';
 import PasswordInput from '../components/login/Password';
+
 import './Login.css';
 
 const Login = () => {
@@ -30,6 +32,12 @@ const Login = () => {
           <PasswordInput password={password} setPassword={setPassword} />
           <ForgotPassword />
           <button type="submit" className="login-button">Login</button>
+          <p className="new-user-text">
+          Don't have an account? <Link to="/register">Register here</Link>
+          </p>
+          
+
+
         </form>
       </div>
     </div>
